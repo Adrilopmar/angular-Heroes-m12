@@ -43,7 +43,7 @@ export class MyDeckService {
     //createImgToShow.classList.add('showed-card')
     //createImgToShow.src='assets/img/'+ id +'-card.png';
     let imgtoget = <HTMLImageElement>document.getElementById('appended-image')
-    imgtoget.src='assets/img/'+ id +'-card.png';
+    imgtoget.src='./assets/img/'+ id +'-card.png';
     imgtoget.classList.remove('d-none')
   }
   hideShowedCard(){
